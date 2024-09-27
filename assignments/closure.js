@@ -4,6 +4,15 @@
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
+const myVariable = 'Yay';
+
+function example1(number) {
+  const excitedNum = 'number';
+  return(`${myVariable} it's the ${excitedNum} ${number}!`);
+}
+
+console.log(example1(7));
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
